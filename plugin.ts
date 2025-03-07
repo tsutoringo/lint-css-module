@@ -1,5 +1,8 @@
 import { getImportDeclarationAttr, getLineBreak } from "./helper.ts";
 
+/**
+ * Deno lint plugin that disable not typed css module
+ */
 export default {
   name: "css-modules",
   rules: {
