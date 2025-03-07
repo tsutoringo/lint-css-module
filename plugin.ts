@@ -24,7 +24,6 @@ export default {
 
             return context.report({
               message: "This css module import needs @ts-type directive.",
-              hint: "aaaaaaaa",
               fix(fixer) {
                 return fixer.insertTextBefore(
                   node,
