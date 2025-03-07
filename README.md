@@ -1,3 +1,5 @@
+[![JSR](https://jsr.io/badges/@tsutoringo/lint-css-modules)](https://jsr.io/@tsutoringo/lint-css-modules)
+[![JSR](https://jsr.io/badges/@tsutoringo/lint-css-modules/score)](https://jsr.io/@tsutoringo/lint-css-modules)
 # lint-css-module
 Deno lint plugin that disable not typed css module
 
