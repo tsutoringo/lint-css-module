@@ -1,0 +1,17 @@
+{
+  "name": "@tsutoringo/lint-css-modules",
+  "version": "1.0.0",
+  "exports": "./plugin.ts",
+  "imports": {
+    "@core/iterutil": "jsr:@core/iterutil@^0.9.0",
+    "@core/pipe": "jsr:@core/pipe@^0.4.0"
+  },
+  "exclude": [
+    ".vscode"
+  ],
+  "lint": {
+    "plugins": [
+      "./plugin.ts"
+    ]
+  }
+}

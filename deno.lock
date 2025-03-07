@@ -1,0 +1,32 @@
+{
+  "version": "4",
+  "specifiers": {
+    "jsr:@core/iterutil@0.9": "0.9.0",
+    "jsr:@core/pipe@0.4": "0.4.0",
+    "jsr:@std/assert@*": "1.0.11",
+    "jsr:@std/internal@^1.0.5": "1.0.5"
+  },
+  "jsr": {
+    "@core/iterutil@0.9.0": {
+      "integrity": "29a4ba1af8e79c2d63d96df4948bb995afb5256568401711ae97a1ef06cc67a8"
+    },
+    "@core/pipe@0.4.0": {
+      "integrity": "e05fa7c582297de7954601755ef2eb7e77dacef226c04c7c9542a2ecd21eb048"
+    },
+    "@std/assert@1.0.11": {
+      "integrity": "2461ef3c368fe88bc60e186e7744a93112f16fd110022e113a0849e94d1c83c1",
+      "dependencies": [
+        "jsr:@std/internal"
+      ]
+    },
+    "@std/internal@1.0.5": {
+      "integrity": "54a546004f769c1ac9e025abd15a76b6671ddc9687e2313b67376125650dc7ba"
+    }
+  },
+  "workspace": {
+    "dependencies": [
+      "jsr:@core/iterutil@0.9",
+      "jsr:@core/pipe@0.4"
+    ]
+  }
+}
