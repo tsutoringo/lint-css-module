@@ -40,4 +40,4 @@ export default {
       },
     },
   },
-} satisfies Deno.lint.Plugin;
+} as Deno.lint.Plugin;
